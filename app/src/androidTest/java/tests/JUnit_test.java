@@ -18,6 +18,6 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
     }
     public void test_first(){
         mainActivity = getActivity();
-        assertEquals(mainActivity.sum(1.0,2.0),3.0);
+        assertEquals(mainActivity.sum(1.0,2.0),-1.0);
     }
 }
